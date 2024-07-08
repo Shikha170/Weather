@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f0c27b, #4b1248);
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+.container {
+    width: 400px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+    margin: 30px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 3rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+label {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+input[type="text"] {
+    border: 2px solid rgb(68, 4, 170);
+    height: 30px;
+    width: calc(100% - 30px);
+    margin: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    border: 2px solid rgb(68, 4, 170);
+    height: 40px;
+    width: calc(100% - 30px);
+    margin: 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+}
